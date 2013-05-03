@@ -13,6 +13,7 @@ liboscapcommon_la_SOURCES = \
 	oscap_acquire.c oscap_acquire.h \
 	oscapxml.c \
 	reference.c reference_priv.h \
+	scap_resource.c scap_resource_priv.h \
 	text.c text_priv.h \
 	tsort.c tsort.h \
 	util.c util.h \
@@ -31,4 +32,5 @@ pkginclude_HEADERS =\
 	public/oscap_error.h \
 	public/oscap.h \
 	public/oscap_reference.h \
-	public/oscap_text.h
+	public/oscap_text.h \
+	public/scap_resource.h
